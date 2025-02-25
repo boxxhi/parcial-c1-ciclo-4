@@ -61,7 +61,7 @@
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -70,4 +70,81 @@ footer {
 
 .p-075r {
     padding: .75rem;
+}
+
+.mauto {
+    margin: 0 auto;
+}
+
+.p50 {
+    width: 75%;
+}
+
+.radius-40px {
+    border-radius: 40px;
+}
+
+.img-h400 {
+    height: 400px;
+}
+
+.m50 {
+    margin-top: 6.75rem;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mt1r {
+    margin-top: 2rem;
+}
+
+.flex-vertical {
+    flex-direction: column;
+}
+
+.w25 {
+    width: 600px;
+}
+
+.lt16pt {
+    font-size: 13pt;
+}
+
+
+@media (max-width: 1400px) {
+    .flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .m50 {
+        margin-top: 3rem;
+    }
+    
+    .angap {
+        gap: 3rem;
+    }
+
+    .p50 {
+        width: 100%;
+    }
+
+    #dengue2 {
+        width: 75%;
+        height: auto;
+    }
+
+    #dengue {
+        width: 75%;
+        height: auto;
+    }
+
+    .w25 {
+        width: 75%;
+    }
+
 }
